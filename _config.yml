@@ -18,11 +18,11 @@ email: anisulislamfahad@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a personal blog of Anisul Islam. This blog contains posts about learning life of Anisul Islam.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://lordofxtreme.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: lordofxtreme
+url: "https://anisul-islam-prog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+instagram_username: anisul.islam
 twitter_username: lordofxtreme
-github_username:  lordofxtreme
-facebook_username: lordofxtreme
+github_username:  anisul-islam-prog
+facebook_username: ####
 
 # Build settings
 markdown: kramdown
