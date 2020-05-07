@@ -1,44 +1,98 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site
+repository: https://github.com/anisul-islam-prog/anisul-islam-prog.github.io
+favicon: images/favicon.ico
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Anisul Islam
+# Personal info
+name: Anisul Islam
+title: Software Engineer
 email: anisulislamfahad@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a personal blog of Anisul Islam. This blog contains posts about learning life of Anisul Islam.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://anisul-islam-prog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: anisul._.islam
-twitter_username: lordofxtreme
+phone: "+8801682760923"
+website: anisul-islam-prog.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: lordofxtreme
 github_username:  anisul-islam-prog
-facebook_username: lordofxtreme
-snapchat_username: lordofxtreme
+stackoverflow_username: "4568735"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: anisul._.islam
+linkedin_username: lordofxtreme
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Story
+  icon: fas fa-user-graduate #Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url:  https://stackoverflow.com/story/anisul.islam #Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
 
 # Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
