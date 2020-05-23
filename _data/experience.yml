@@ -1,10 +1,9 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: MGH Group
+  link: http://www.mghgroup.com/
+  job_title: Senior Executive
+  dates: December 2018 - April 2020
+  quote: 
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    ## I was in charge of development and maintenance of myshipment.com. I built REST and SOAP APIs to fetch data from third-party services and the view using <mark>Javascript</mark>, <mark>CSS</mark> and <mark>HTML5</mark> to show data in MAP. As there are multiple services I had to built both <mark>GET</mark> and <mark>POST</mark> endpoints for many <mark>APIs</mark>.
