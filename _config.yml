@@ -43,13 +43,13 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: Who Am I
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ## Hi, my name is Anis, I’m a full stack web developer with over 1 years experience. I used to work for the MGH Group as a full stack software engineer on a freight forwarding web platform. 
   ## I enjoy making clean, readable and modular code. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
-  ## The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>ES6 Javascript</mark>, <mark>DevOps</mark>, <mark>SQL</mark>, <mark>MySQL</mark>, <mark>React & Redux</mark>, <mark>TypeScript</mark>,
-  ## <mark>MERN (MongoDB, Express, React, Nodejs)</mark> and <mark>git</mark> 
+  ## The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>ES6 Javascript</mark>, <mark>DevOps</mark>, <mark>SQL</mark>, <mark>MySQL</mark>, <mark>React & Redux</mark>, <mark>TypeScript</mark>,<mark>MERN</mark> and <mark>git</mark>. 
+  ## I have also working knowledge on SDLC: <mark>Scrum</mark> & <mark>DSDM</mark>
 
 # You can even add paragraphs by using empty lines like this and add anything else markdown supports such as 
 #   - Lists
